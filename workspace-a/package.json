@@ -1,7 +1,7 @@
 {
   "name": "workspace-a",
   "version": "1.0.0",
-  "dependencies": {
+  "devDependencies": {
     "minimatch": "3.0.0"
   }
 }

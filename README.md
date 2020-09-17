@@ -1,10 +1,7 @@
-Update: [yarn 1.12.3](https://github.com/yarnpkg/yarn/pull/6639) fixed the issue.
-
-
 An example project using yarn workspaces[1]. One of the workspaces
-uses a vulnerable dependency, but `yarn audit`[2] doesn't report it.
+uses a vulnerable package in devDependencies, but `yarn audit`[2] doesn't report it.
 
-yarn 1.12.1 was tested.
+yarn 1.22.5 was tested.
 
 
 
@@ -13,4 +10,4 @@ yarn 1.12.1 was tested.
 https://yarnpkg.com/lang/en/docs/workspaces/
 
 [2]
-https://github.com/yarnpkg/yarn/pull/6409
+https://github.com/yarnpkg/yarn/pull/6909
